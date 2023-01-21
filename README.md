@@ -6,11 +6,33 @@
 ![VStudio](https://img.shields.io/badge/VStudio-blueviolet?style=for-the-badge&logo=visualstudio&logoColor=white)
 
 # LanchesMac
-Sistema demonstração como conclusão do curso
+Sistema demonstração como conclusão do curso. LanchesMac é um projeto focado em <strong>Back-End</strong> e <strong>Microsoft MVC</strong>,
+bastante complexo, além de demonstrar várias ferramentas do padrão MVC (Model View Controller).
+
+# O que foi visto nesse curso
+
+## Fundamentos da ASP .NET Core MVC, que agrega diversos recursos, tais como:
+* View Engine
+* Model Binding
+* Tag-Helpers
+* Routing
+* Scaffolding
+* E as convenções sobre as configurações da estrutura do projeto
+* Entity Framework Core, que é uma ferramenta ORM, que mapeia as classes para as tabelas, numa abordagem "Code-First", usando Migrations inclusive. 
+* Data Annotations, para validação de classes usando atributos
+* Migrations
+* Padrão Repository
+
+## Ferramentas usadas
+
+* VisualStudioCode e a infraestrutura Nuget, 
+* Microsoft SQL Server
+
+Link interessante: [The Connection Strings Reference](https://www.connectionstrings.com)
 
 ## Dependências
 * TargetFramework Net5.0
-* Microsoft.AspNetCore.Identity.EntityFrameworkCore 3.1.3
+* [Microsoft.AspNetCore](https://github.com/aspnet/AspNetCore).Identity.EntityFrameworkCore 3.1.3
 * Microsoft.EntityFrameworkCore.SqlServer 3.1.3
 * Microsoft.EntityFrameworkCore.Tools 3.1.3
 * Microsoft.Extensions.Hosting.Abstractions 3.1.3
@@ -20,7 +42,7 @@ Sistema demonstração como conclusão do curso
 Após instalar todas as dependências nas respectivas versões, checar a conexão com o banco de dados (SQL Express, instalação básica) e abrir um terminal nuget, digitando em seguida o comando: update-database
 Isso vai popular a base de dados.
 
-<a href="https://github.com/aspnet/AspNetCore">Clique aqui</a> para adquirir o curso do Macoratti, atualizado para .Net6.
+<a href="https://www.udemy.com/course/curso-de-asp-net-core-mvc-criando-um-site-do-zero/">Clique aqui</a> para adquirir o curso do Macoratti, atualizado para .Net6.
 
 # Imagens de demonstração abaixo
 
