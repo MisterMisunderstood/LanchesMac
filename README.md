@@ -6,7 +6,29 @@
 ![VStudio](https://img.shields.io/badge/VStudio-blueviolet?style=for-the-badge&logo=visualstudio&logoColor=white)
 
 # LanchesMac
-Sistema demonstração como conclusão do curso
+Sistema demonstração como conclusão do curso. LanchesMac é um projeto focado em <strong>Back-End</strong> e <strong>Microsoft MVC</strong>,
+bastante complexo, além de demonstrar várias ferramentas do padrão MVC (Model View Controller).
+
+# O que foi visto nesse curso
+
+## Fundamentos da ASP .NET Core MVC, que agrega diversos recursos, tais como:
+* View Engine
+* Model Binding
+* Tag-Helpers
+* Routing
+* Scaffolding
+* E as convenções sobre as configurações da estrutura do projeto
+* Entity Framework Core, que é uma ferramenta ORM, que mapeia as classes para as tabelas, numa abordagem "Code-First", usando Migrations inclusive. 
+* Data Annotations, para validação de classes usando atributos
+* Migrations
+* Padrão Repository
+
+## Ferramentas usadas
+
+* VisualStudioCode e a infraestrutura Nuget, 
+* Microsoft SQL Server
+
+Link interessante: [The Connection Strings Reference](https://www.connectionstrings.com)
 
 ## Dependências
 * TargetFramework Net5.0
